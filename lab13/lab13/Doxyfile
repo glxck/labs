@@ -1,0 +1,56 @@
+# Doxyfile 1.9.0
+
+
+
+DOXYFILE_ENCODING      = UTF-8
+
+# The PROJECT_NAME tag is a single word (or a sequence of words surrounded by
+# double-quotes, unless you are using Doxywizard) that should identify the
+# project for which the documentation is generated. This name is used in the
+# title of most generated pages and in a few other places.
+# The default value is: My Project.
+
+PROJECT_NAME           = "Lab07/09"
+
+# The PROJECT_NUMBER tag can be used to enter a project or revision number. This
+# could be handy for archiving the generated documentation or if some version
+# control system is used.
+
+PROJECT_NUMBER         = "07/09"
+
+# Using the PROJECT_BRIEF tag one can provide an optional one line description
+# for a project that appears at the top of each page and should give viewer a
+# quick idea about the purpose of the project. Keep the description short.
+
+PROJECT_BRIEF          = "Demonstration of work with Doxygen"
+
+
+OUTPUT_DIRECTORY       =
+
+
+CREATE_SUBDIRS         = NO
+
+
+ALLOW_UNICODE_NAMES    = NO
+
+
+OUTPUT_LANGUAGE        = English
+
+
+OUTPUT_TEXT_DIRECTION  = None
+
+BRIEF_MEMBER_DESC      = YES
+
+REPEAT_BRIEF           = YES
+
+ABBREVIATE_BRIEF       = "The $name class" \
+                         "The $name widget" \
+                         "The $name file" \
+                         is \
+                         provides \
+                         specifies \
+                         contains \
+                         represents \
+                         a \
+                         an \
+                         the

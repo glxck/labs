@@ -4,6 +4,15 @@
 //
 //  Created by Glock on 07.01.2021.
 //
+/**
+
+ * \author Lysenko D.
+ * \version 2.0
+ * \return Числа из текста
+
+
+*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,27 +35,27 @@ int main()
                 last = &str[i];
                 flag = 0;
                 if(last - first > 1){
-                    if(*first == '0'){ //если число начинается с нуля или нескольких нулей
-                        while((first < last - 1) && *first == '0')//убираем нули
+                    if(*first == '0'){
+                        while((first < last - 1) && *first == '0')
                             first++;
                     }
-                    if(*first == '-' && *(first + 1) == '0'){ //если после минуса ноль
+                    if(*first == '-' && *(first + 1) == '0'){
                         putchar('-');
                         first++;
-                        while((first < last - 1) && *first == '0')//убираем нули
+                        while((first < last - 1) && *first == '0')
                             first++;
                     }
                     while(first < last)
                         putchar(*first++);
                     putchar('\n');
                 }
-                else{ //если число из одной цифры
-                    if(*first != '-'){ //минус без чмсла не печатаем
+                else{
+                    if(*first != '-'){
                         putchar(*first);
                         putchar('\n');
                     }
                 }
-                if(str[i] == '-'){ //если между числами минус
+                if(str[i] == '-'){
                     first = &str[i];
                     flag = 1;
                 }
