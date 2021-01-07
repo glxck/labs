@@ -33,7 +33,7 @@ int main()
     setlocale(LC_ALL, "Rus");
     char text[100];
     printf("Текст: ");
-    gets_s(text);
+    gets(text);
     returnNums(text);
     return 0;
 }
