@@ -27,7 +27,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1544da4c-d054-4101-930f-d2e33318956f" name="Default Changelist" comment="" />
+    <list default="true" id="1544da4c-d054-4101-930f-d2e33318956f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab11/lab11.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/lab11.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/lab11.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/lab11.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/lab11.xcodeproj/xcuserdata/alex.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609986936535</updated>
       <workItem from="1609986939320" duration="1931000" />
-      <workItem from="1610040524594" duration="1274000" />
+      <workItem from="1610040524594" duration="1484000" />
     </task>
     <servers />
   </component>
