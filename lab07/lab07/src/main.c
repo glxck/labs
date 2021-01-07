@@ -6,22 +6,26 @@
 //
 
 
-/// <summary>
-/// Функция для выполнения заданой задачи
-/// </summary>
-/// <param name="answer"> Конечный результат </param>
-/// <param name="num1"> Первое число в сравнении </param>
-/// <param name="num2"> Второе число в сравнении </param>
-/// <param name="va_start"> Запуск функции с вариативным количеством аргументов</param>
-/// <param name="for"> Цикл для сравнения чисел </param>
-/// <param name="va_end"> Конец функции с вариативным количеством аргументов </param>
+/**
+ * \param [in] size and ...
+ * \param [out] answer - конечный результат
+ * \author Lysenko D.
+ * \version 2.0
+ * \return Количество пар
 
+ <param name="num1"> Первое число в сравнении </param>
+ <param name="num2"> Второе число в сравнении </param>
+ <param name="va_start"> Запуск функции с вариативным количеством аргументов</param>
+ <param name="for"> Цикл для сравнения чисел </param>
+ <param name="va_end"> Конец функции с вариативным количеством аргументов </param>
+*/
 
 #include <stdio.h>
 #include <stdarg.h>
 
 int comparePairs(int size, ...)
 {
+
     va_list args;
     int answer = 0;
     int num1 = 0;
@@ -44,6 +48,8 @@ int comparePairs(int size, ...)
 
 int main()
 {
+    //int task = ((8-1)%4) +1;
+    //printf("%d", task);
     comparePairs(4, 21, 35, 24, 48);
     return 0;
 }

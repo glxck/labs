@@ -28,11 +28,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1544da4c-d054-4101-930f-d2e33318956f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab13/lab13.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab13/lab13.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab13/lab13.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab13/lab13.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab13/lab13.xcodeproj/xcuserdata/alex.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab13/lab13/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab06/lab06.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06/lab06.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab07.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/lab07.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab07/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab12/lab12.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../lab12/lab12.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab12/lab12/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lab12/lab12/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/dist/main.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/dist/main.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/dist/main.bin.dSYM/Contents/Resources/DWARF/main.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/dist/main.bin.dSYM/Contents/Resources/DWARF/main.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609986936535</updated>
-      <workItem from="1609986939320" duration="1031000" />
+      <workItem from="1609986939320" duration="1931000" />
+      <workItem from="1610040524594" duration="949000" />
     </task>
     <servers />
   </component>
@@ -84,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="78" key="SettingsEditor" timestamp="1609987114324">
