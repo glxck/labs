@@ -27,9 +27,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1544da4c-d054-4101-930f-d2e33318956f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab13/lab13.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../lab13/lab13.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    <list default="true" id="24dc573f-a430-4c1d-8d56-69a7a0915a48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab13.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/lab13.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab13/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab13/src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1miqoRwgw6hWfMq1VpGBtjIyOvP" />
+  <component name="ProjectId" id="1ml5xksqUYV1UQnCAdx9yAxoMoC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,20 +54,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1544da4c-d054-4101-930f-d2e33318956f" name="Default Changelist" comment="" />
-      <created>1609986936535</created>
+      <changelist id="24dc573f-a430-4c1d-8d56-69a7a0915a48" name="Default Changelist" comment="" />
+      <created>1610055585795</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609986936535</updated>
-      <workItem from="1609986939320" duration="1931000" />
-      <workItem from="1610040524594" duration="1484000" />
-      <workItem from="1610054307386" duration="406000" />
+      <updated>1610055585795</updated>
+      <workItem from="1610055587153" duration="248000" />
     </task>
     <servers />
   </component>
@@ -83,12 +80,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="458" y="78" key="SettingsEditor" timestamp="1609987114324">
-      <screen x="0" y="23" width="1440" height="822" />
-    </state>
-    <state x="458" y="78" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1609987114324" />
   </component>
 </project>

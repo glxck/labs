@@ -9,58 +9,31 @@
  * \author Lysenko D.
  * \version 2.0
  * \return Числа из текста
-
+ * \param [in]  text
+ * \param [out] Числа из текста
 
 */
+#include <locale.h>
 
 
-#include <stdio.h>
-#include <stdlib.h>
-#define N 80
-int main()
+int returnNums(char text[100])
 {
-    char str[N], *first, *last;
-    int i, flag = 0;
-    puts("Enter line:");
-    fgets(str, N, stdin);
-    for( i = 0; str[i]; i++){
-        if(!flag){
-            if((str[i] >= '0' && str[i] <= '9') || str[i] == '-'){
-                first = &str[i];
-                flag = 1;
-            }
-        }
-        else{
-            if(str[i] < '0' || str[i] > '9'){
-                last = &str[i];
-                flag = 0;
-                if(last - first > 1){
-                    if(*first == '0'){
-                        while((first < last - 1) && *first == '0')
-                            first++;
-                    }
-                    if(*first == '-' && *(first + 1) == '0'){
-                        putchar('-');
-                        first++;
-                        while((first < last - 1) && *first == '0')
-                            first++;
-                    }
-                    while(first < last)
-                        putchar(*first++);
-                    putchar('\n');
-                }
-                else{
-                    if(*first != '-'){
-                        putchar(*first);
-                        putchar('\n');
-                    }
-                }
-                if(str[i] == '-'){
-                    first = &str[i];
-                    flag = 1;
-                }
-            }
+    for (int i = 0; i < strlen(text); i++)
+    {
+        if (isdigit(text[i]) != 0)
+        {
+            printf("%c ", text[i]);
         }
     }
+    return 0;
+}
+
+int main()
+{
+    setlocale(LC_ALL, "Rus");
+    char text[100];
+    printf("Текст: ");
+    gets_s(text);
+    returnNums(text);
     return 0;
 }
