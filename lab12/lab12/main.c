@@ -15,15 +15,22 @@ int  main()
     //SCANF
     //scanf("%d", &N);
     
+    
+    //GETS
     /*
-     GETS
-    //char text [100];
-    //gets(text);
-    //N = atoi(text);
+    char text [100];
+    gets(text);
+    N = atoi(text);
     */
+    
+    //READ
+    
     char text [100];
     read(0, text, 99);
     N = atoi(text);
+    
+    //READ
+    
     if (N <= 0)
         return 0;
     int arr[N];
@@ -45,14 +52,20 @@ int  main()
             arr[index] = i;
             //PRINTF
             //printf("%d\n", arr[index]);
+            
+            //PUTS
             /*
-            PUTS
             sprintf(text, "%d", arr[index]);
             puts(text);
             */
+            
+            //WRITE
+            
             int n = sprintf(text, "%d\n", arr[index]);
             write(1, text, n);
             ++index;
+            
+            //WRITE
         }
     }
     return  0;
