@@ -9,7 +9,7 @@
  4. Знайти всі числа які зустрічаються в тексті
 
 2.	**БЛОХ-СХЕМА ПРОГРАМИ**
-![](https://imageshack.com/i/poHElBM4p)
+![](https://imageshack.com/i/poEKbXxWp)
 Рисунок 1
 3.	**ДОКУМЕНТАЦІЯ В DOXYGEN**
  ![](https://imageshack.com/i/pmnitsgRp)
