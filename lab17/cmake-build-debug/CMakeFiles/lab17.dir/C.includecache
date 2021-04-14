@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alex/labs/lab17/calculator.h
+stdio.h
+-
+
+/Users/alex/labs/lab17/main.c
+stdio.h
+-
+calculator.h
+/Users/alex/labs/lab17/calculator.h
+test/test.c
+/Users/alex/labs/lab17/test/test.c
+
+/Users/alex/labs/lab17/test/test.c
+stdio.h
+-
+../calculator.h
+/Users/alex/labs/lab17/calculator.h
+assert.h
+-
+
